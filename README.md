@@ -112,35 +112,6 @@ Welcome to this MLOps project, designed to demonstrate a robust pipeline for man
 ### Step 15: Static and Template Directory
 - Add `static` and `template` directories for web UI.
 
----
-
-## 🔄 CI/CD Setup with Docker, GitHub Actions, and AWS
-
-### Step 16: Docker and GitHub Actions
-1. Create `Dockerfile` and `.dockerignore`.
-2. Set up GitHub Actions with AWS authentication by creating secrets in GitHub for:
-   - `AWS_ACCESS_KEY_ID`
-   - `AWS_SECRET_ACCESS_KEY`
-   - `AWS_DEFAULT_REGION`
-   - `ECR_REPO`
-
-### Step 17: AWS EC2 and ECR
-1. Set up an EC2 instance for deployment.
-2. Install Docker on the EC2 machine.
-3. Connect EC2 as a self-hosted runner on GitHub.
-
-### Step 18: Final Steps
-1. Open the 5080 port on the EC2 instance.
-2. Access the deployed app by visiting `http://<public_ip>:5080`.
-
----
-
-## 🛠️ Additional Resources
-- **Crash Course on setup.py and pyproject.toml**: See `crashcourse.txt` for details.
-- **GitHub Secrets**: Manage secrets for secure CI/CD pipelines.
-
----
-
 ## 🎯 Project Workflow Summary
 
 1. **Data Ingestion** ➔ **Data Validation** ➔ **Data Transformation**
@@ -148,10 +119,3 @@ Welcome to this MLOps project, designed to demonstrate a robust pipeline for man
 3. **CI/CD Automation** with GitHub Actions, Docker, AWS EC2, and ECR
 
 ---
-
-## 💬 Connect
-If you found this project helpful or have any questions, feel free to reach out!
-
----
-
-This README provides a structured walkthrough of the MLOps project, showcasing the end-to-end pipeline, cloud integration, CI/CD setup, and robust data handling capabilities.
